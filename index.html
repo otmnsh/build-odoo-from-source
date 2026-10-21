@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Build Odoo from Source | Bash Script Generator for Linux</title>
+<meta name="author" content="Otmane Echaibi">
+<meta name="theme-color" content="#204665">
+<meta name="description" content="Generate a copy-paste bash script that installs Odoo Community from source on Ubuntu, Debian, Fedora, RHEL and Arch. Runs entirely in your browser.">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Build Odoo from Source",
+  "description": "Generate ready-to-use bash scripts to install Odoo Community from source on Linux, plus fish shell functions to start and stop the server and a script to purge it. Supports Odoo 16.0 to 19.0.",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Linux",
+  "softwareVersion": "2026.10",
+  "datePublished": "2026-10-20",
+  "dateModified": "2026-10-20",
+  "isAccessibleForFree": true,
+  "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+  "creator": {"@type": "Person", "name": "Otmane Echaibi"},
+  "inLanguage": "en",
+  "keywords": "Odoo, build from source, install Odoo, Linux, bash script, fish shell, systemd, PostgreSQL, virtualenv, ERP",
+  "featureList": [
+    "Generate a bash script that installs Odoo Community 16.0 to 19.0 from source",
+    "Targets Ubuntu, Debian, Fedora, RHEL, AlmaLinux, Rocky Linux and Arch Linux",
+    "Install system-wide with a dedicated service user and systemd service, or just for the current user without sudo",
+    "Optional PostgreSQL setup, wkhtmltopdf, rtlcss and a first database",
+    "Fish shell functions to start, stop, restart and inspect the Odoo server",
+    "Purge script that removes an Odoo installation after an explicit confirmation",
+    "Runs entirely in the browser: no analytics, no cookies, nothing is sent to a server"
+  ]
+}
+</script>
+</head>
+<body>
+<header>
+<svg class="logo" viewBox="0 0 64 64" aria-hidden="true"><circle cx="24" cy="32" r="16" fill="#efca6e"/><circle cx="40" cy="32" r="16" fill="#bb1450" fill-opacity=".85"/></svg>
+<h1>Build Odoo from source</h1>
+<p>Pick your Odoo version and Linux distribution, and get one bash script that clones Odoo Community, builds a virtualenv, writes the config and optionally sets up PostgreSQL and a systemd service. It all runs in this page: nothing is sent anywhere and there is no analytics.</p>
+</header>
+<noscript><p style="padding:20px">JavaScript is required to generate the script.</p></noscript>
+<div class="wrap">
+<div class="panel" id="ctl"></div>
+<div class="out">
+<div class="panel">
+<div class="tabs" role="tablist" aria-label="Generated files"><button type="button" role="tab" data-tab="install">Install script</button><button type="button" role="tab" data-tab="fish">Fish start/stop</button><button type="button" role="tab" data-tab="purge">Purge Odoo</button></div>
+<div class="bar"><b id="fn"></b><div><button type="button" id="share">Share link</button><button type="button" id="dl">Download .sh</button><button type="button" class="p" id="cp">Copy to clipboard</button></div></div>
+<pre id="code" dir="ltr"></pre>
+<span class="vh" aria-live="polite" id="live"></span>
+</div></div>
+</div>
+<footer>
+<p>Read the script before you run it: it uses sudo, creates a system user and writes under /opt or your home folder. Odoo is a trademark of Odoo S.A.; this page is an independent tool.</p>
+<p>Made with <span role="img" aria-label="love">♥</span> by <a href="https://www.linkedin.com/in/otmane-echaibi-1a4996445" target="_blank" rel="noopener noreferrer">Otmane Echaibi</a></p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

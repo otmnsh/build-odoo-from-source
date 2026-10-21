@@ -1,0 +1,11 @@
+{
+  "name": "build-odoo-from-source",
+  "version": "2026.10.0",
+  "description": "Static web app that generates bash and fish scripts to install, run and purge Odoo Community from source on Linux.",
+  "private": true,
+  "scripts": {
+    "check": "node tools/check.js",
+    "serve": "python3 -m http.server 8000"
+  },
+  "author": "Otmane Echaibi"
+}
